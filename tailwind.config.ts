@@ -6,6 +6,9 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
   theme: {
     extend: {
       backgroundImage: {
